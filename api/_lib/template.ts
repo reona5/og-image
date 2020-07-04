@@ -28,8 +28,8 @@ function getCss(theme: string, fontSize: string) {
   }
   return `
     @font-face {
-      font-family: 'use-SourceHanSansJP';
-      src: url(../_fonts/SourceHanCodeJP-Regular.otf) format('opentype')
+      font-family: 'NotoSansJP-Regular';
+      src: url(../_fonts/NotoSansJP-Regular.otf) format('opentype')
     }
 
     @font-face {
@@ -105,7 +105,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .heading {
-        font-family: 'use-SourceHanSansJP';
+        font-family: 'NotoSansJP-Regular';
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
